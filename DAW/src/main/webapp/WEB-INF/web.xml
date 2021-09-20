@@ -39,4 +39,24 @@
     <servlet-name>indexServlet</servlet-name>
     <url-pattern>/index</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>tutoriaServlet</display-name>
+    <servlet-name>tutoriaServlet</servlet-name>
+    <servlet-class>servlets.tutoriaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>tutoriaServlet</servlet-name>
+    <url-pattern>/tutoriaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>tutorialServlet</display-name>
+    <servlet-name>tutorialServlet</servlet-name>
+    <servlet-class>servlets.tutorialServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>tutorialServlet</servlet-name>
+    <url-pattern>/tutorial</url-pattern>
+  </servlet-mapping>
 </web-app>
